@@ -22,23 +22,27 @@ import arrow_right from './right_arrow.webp'
 import arrow_left from './left_arrow.webp'
 import spotify_logo from './spotify_logo.webp'
 import clock_icon from './clock_icon.webp'
-import img1 from './img1.webp'
-import img2 from './img2.webp'
-import img3 from './img3.webp'
-import img4 from './img4.webp'
-import img5 from './img5.webp'
-import img7 from './img7.webp'
+import Doyouimg from './Doyoulimg.jpg'
+import img2 from './hasteimg.jpg'
+import img3 from './haluimg.jpg'
+import img4 from './streeimg.jpg'
+import img5 from './khoobsurat.jpg'
+import img7 from './kyahalimg.jpg'
 import img8 from './img8.webp'
 import img9 from './img9.webp'
 import img10 from './img10.webp'
 import img11 from './img11.webp'
-import img12 from './img12.webp'
+import img12 from './Taubaimg.jpg'
 import img14 from './img14.webp'
 import img15 from './img15.webp'
 import img16 from './img16.webp'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import Hasina from  './Hasina.mp3'
+import Haule from  './HauleHaule.mp3'
+import Khoob from  './Khoobsurat.mp3'
+import DoYou from './Doyou.mp3'
+import Stree2 from './Stree2.mp3'
+import Tauba from './Tauba.mp3'
+import KyaHal from './KyaHalHaiFir.mp3'
 
 export const assets = {
     bell_icon,
@@ -115,66 +119,66 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        name: "Doyou",
+        image: Doyouimg,
+        file:DoYou,
+        desc:"Do you Know",
+        duration:"2:49"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Hasina",
         image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        file: Hasina,
+        desc:"Hasina",
+        duration:"3:20"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Haule",
         image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        file: Haule,
+        desc:"Haule Haule",
+        duration:"3:32"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Stree2",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        file:Stree2,
+        desc:"Stree 2",
+        duration:"2:58"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Khub",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        file: Khoob,
+        desc:"Khoobsurat",
+        duration:"4:04"
     },
     {
         id:5,
-        name: "Song Six",
+        name: "KyaHal",
         image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        file: KyaHal,
+        desc:"Kya Hal Hai Fir",
+        duration:"3:59"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Stree 2",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        file:Stree2,
+        desc:"Stree 2",
+        duration:"2:58"
     },
     {
         id:7,
-        name: "Song Eight",
+        name: "Tauba",
         image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        file:Tauba,
+        desc:"Tauba Tauba",
+        duration:"3:27"
     }
 ]
